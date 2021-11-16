@@ -1,0 +1,83 @@
+
+
+img{
+  object-fit: cover;
+}
+
+#slider .item{
+  position: relative;
+}
+
+#slider .item .slider-content{
+  position: absolute;
+  z-index: 3;
+  color: black;
+  top:50%;
+  transform: translateY(-50%);
+  left:40px;
+}
+
+.socials i:hover{
+  color: aqua;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-link:hover{
+  color: black !important;
+}
+
+.index-products-list{
+  min-height: 55vh !important;
+}
+
+.products-list{
+  min-height: 81vh !important;
+}
+
+.index-products-list a, .products-list a{
+  overflow: hidden;
+}
+
+img{
+  transition: 0.7s ease;
+}
+
+.index-products-list img:hover, .products-list img:hover{
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
